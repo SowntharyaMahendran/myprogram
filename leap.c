@@ -6,9 +6,11 @@ printf("enter the year:  ");
 scanf("%d",&n);
 if(n%4==0)
 {
-prinf("it is leap year");
+printf("it is leap year");
+}
 else
+{
 printf("it is not a leap year");
 }
-retun 0;
+return 0;
 }
