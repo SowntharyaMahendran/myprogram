@@ -1,14 +1,17 @@
 #include<stdio.h>
 int main()
 {
-int n;
-char a,e,i,o,u,A,E,I,O,U;
-printf("enter a letter: ",n);
-scanf("%d",&n);
-if((n=a)||(n=e)||(n=i)||(n=o)||(n=u)||(n=A)||(n=E)||(n=I)||(n=O)||(n=U))
+char l,r,a,e,i,o,u,A,E,I,O,U;
+printf("enter a letter: ");
+scanf("%d",&c);
+l=(c =='a'||c =='e'||c =='i'||c =='o'||c =='u');
+r=(c =='A'||c =='E'||c ==I||c ==O||c ==U);
+if(l||r)
 {
 printf("vowel");
+  }
 else
+{
 printf("consonant");
 }
 return 0;
