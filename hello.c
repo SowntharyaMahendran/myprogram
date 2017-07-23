@@ -3,6 +3,6 @@ int main()
 {
 int i;
 for(i=0;i<=5;i++)
-printf("hello world");
+printf("hello");
 return 0;
 }
